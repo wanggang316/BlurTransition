@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6D2D3D019A43F4400654B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D3CF19A43F4400654B1C /* Foundation.framework */; };
+		D6D2D3D219A43F4400654B1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D3D119A43F4400654B1C /* CoreGraphics.framework */; };
+		D6D2D3D419A43F4400654B1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D3D319A43F4400654B1C /* UIKit.framework */; };
+		D6D2D3DA19A43F4400654B1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6D2D3D819A43F4400654B1C /* InfoPlist.strings */; };
+		D6D2D3DC19A43F4400654B1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D2D3DB19A43F4400654B1C /* main.m */; };
+		D6D2D3E019A43F4400654B1C /* WGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D2D3DF19A43F4400654B1C /* WGAppDelegate.m */; };
+		D6D2D3E219A43F4400654B1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D2D3E119A43F4400654B1C /* Images.xcassets */; };
+		D6D2D3E919A43F4400654B1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D3E819A43F4400654B1C /* XCTest.framework */; };
+		D6D2D3EA19A43F4400654B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D3CF19A43F4400654B1C /* Foundation.framework */; };
+		D6D2D3EB19A43F4400654B1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D3D319A43F4400654B1C /* UIKit.framework */; };
+		D6D2D3F319A43F4400654B1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6D2D3F119A43F4400654B1C /* InfoPlist.strings */; };
+		D6D2D3F519A43F4400654B1C /* WGBlurTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D2D3F419A43F4400654B1C /* WGBlurTransitionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6D2D3EC19A43F4400654B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D2D3C419A43F4400654B1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D2D3CB19A43F4400654B1C;
+			remoteInfo = WGBlurTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6D2D3CC19A43F4400654B1C /* WGBlurTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGBlurTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D2D3CF19A43F4400654B1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6D2D3D119A43F4400654B1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6D2D3D319A43F4400654B1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6D2D3D719A43F4400654B1C /* WGBlurTransition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WGBlurTransition-Info.plist"; sourceTree = "<group>"; };
+		D6D2D3D919A43F4400654B1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6D2D3DB19A43F4400654B1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6D2D3DD19A43F4400654B1C /* WGBlurTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WGBlurTransition-Prefix.pch"; sourceTree = "<group>"; };
+		D6D2D3DE19A43F4400654B1C /* WGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGAppDelegate.h; sourceTree = "<group>"; };
+		D6D2D3DF19A43F4400654B1C /* WGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGAppDelegate.m; sourceTree = "<group>"; };
+		D6D2D3E119A43F4400654B1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6D2D3E719A43F4400654B1C /* WGBlurTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGBlurTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D2D3E819A43F4400654B1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D6D2D3F019A43F4400654B1C /* WGBlurTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WGBlurTransitionTests-Info.plist"; sourceTree = "<group>"; };
+		D6D2D3F219A43F4400654B1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6D2D3F419A43F4400654B1C /* WGBlurTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGBlurTransitionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D2D3C919A43F4400654B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D2D3D219A43F4400654B1C /* CoreGraphics.framework in Frameworks */,
+				D6D2D3D419A43F4400654B1C /* UIKit.framework in Frameworks */,
+				D6D2D3D019A43F4400654B1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D2D3E419A43F4400654B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D2D3E919A43F4400654B1C /* XCTest.framework in Frameworks */,
+				D6D2D3EB19A43F4400654B1C /* UIKit.framework in Frameworks */,
+				D6D2D3EA19A43F4400654B1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6D2D3C319A43F4400654B1C = {
+			isa = PBXGroup;
+			children = (
+				D6D2D3D519A43F4400654B1C /* WGBlurTransition */,
+				D6D2D3EE19A43F4400654B1C /* WGBlurTransitionTests */,
+				D6D2D3CE19A43F4400654B1C /* Frameworks */,
+				D6D2D3CD19A43F4400654B1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D2D3CD19A43F4400654B1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D2D3CC19A43F4400654B1C /* WGBlurTransition.app */,
+				D6D2D3E719A43F4400654B1C /* WGBlurTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6D2D3CE19A43F4400654B1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D2D3CF19A43F4400654B1C /* Foundation.framework */,
+				D6D2D3D119A43F4400654B1C /* CoreGraphics.framework */,
+				D6D2D3D319A43F4400654B1C /* UIKit.framework */,
+				D6D2D3E819A43F4400654B1C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6D2D3D519A43F4400654B1C /* WGBlurTransition */ = {
+			isa = PBXGroup;
+			children = (
+				D6D2D3DE19A43F4400654B1C /* WGAppDelegate.h */,
+				D6D2D3DF19A43F4400654B1C /* WGAppDelegate.m */,
+				D6D2D3E119A43F4400654B1C /* Images.xcassets */,
+				D6D2D3D619A43F4400654B1C /* Supporting Files */,
+			);
+			path = WGBlurTransition;
+			sourceTree = "<group>";
+		};
+		D6D2D3D619A43F4400654B1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6D2D3D719A43F4400654B1C /* WGBlurTransition-Info.plist */,
+				D6D2D3D819A43F4400654B1C /* InfoPlist.strings */,
+				D6D2D3DB19A43F4400654B1C /* main.m */,
+				D6D2D3DD19A43F4400654B1C /* WGBlurTransition-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6D2D3EE19A43F4400654B1C /* WGBlurTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6D2D3F419A43F4400654B1C /* WGBlurTransitionTests.m */,
+				D6D2D3EF19A43F4400654B1C /* Supporting Files */,
+			);
+			path = WGBlurTransitionTests;
+			sourceTree = "<group>";
+		};
+		D6D2D3EF19A43F4400654B1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6D2D3F019A43F4400654B1C /* WGBlurTransitionTests-Info.plist */,
+				D6D2D3F119A43F4400654B1C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D2D3CB19A43F4400654B1C /* WGBlurTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D2D3F819A43F4400654B1C /* Build configuration list for PBXNativeTarget "WGBlurTransition" */;
+			buildPhases = (
+				D6D2D3C819A43F4400654B1C /* Sources */,
+				D6D2D3C919A43F4400654B1C /* Frameworks */,
+				D6D2D3CA19A43F4400654B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGBlurTransition;
+			productName = WGBlurTransition;
+			productReference = D6D2D3CC19A43F4400654B1C /* WGBlurTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6D2D3E619A43F4400654B1C /* WGBlurTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D2D3FB19A43F4400654B1C /* Build configuration list for PBXNativeTarget "WGBlurTransitionTests" */;
+			buildPhases = (
+				D6D2D3E319A43F4400654B1C /* Sources */,
+				D6D2D3E419A43F4400654B1C /* Frameworks */,
+				D6D2D3E519A43F4400654B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D2D3ED19A43F4400654B1C /* PBXTargetDependency */,
+			);
+			name = WGBlurTransitionTests;
+			productName = WGBlurTransitionTests;
+			productReference = D6D2D3E719A43F4400654B1C /* WGBlurTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D2D3C419A43F4400654B1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wwwlife;
+				TargetAttributes = {
+					D6D2D3E619A43F4400654B1C = {
+						TestTargetID = D6D2D3CB19A43F4400654B1C;
+					};
+				};
+			};
+			buildConfigurationList = D6D2D3C719A43F4400654B1C /* Build configuration list for PBXProject "WGBlurTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6D2D3C319A43F4400654B1C;
+			productRefGroup = D6D2D3CD19A43F4400654B1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D2D3CB19A43F4400654B1C /* WGBlurTransition */,
+				D6D2D3E619A43F4400654B1C /* WGBlurTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6D2D3CA19A43F4400654B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D2D3DA19A43F4400654B1C /* InfoPlist.strings in Resources */,
+				D6D2D3E219A43F4400654B1C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D2D3E519A43F4400654B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D2D3F319A43F4400654B1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D2D3C819A43F4400654B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D2D3E019A43F4400654B1C /* WGAppDelegate.m in Sources */,
+				D6D2D3DC19A43F4400654B1C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D2D3E319A43F4400654B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D2D3F519A43F4400654B1C /* WGBlurTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6D2D3ED19A43F4400654B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D2D3CB19A43F4400654B1C /* WGBlurTransition */;
+			targetProxy = D6D2D3EC19A43F4400654B1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6D2D3D819A43F4400654B1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6D2D3D919A43F4400654B1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6D2D3F119A43F4400654B1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6D2D3F219A43F4400654B1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6D2D3F619A43F4400654B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6D2D3F719A43F4400654B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6D2D3F919A43F4400654B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WGBlurTransition/WGBlurTransition-Prefix.pch";
+				INFOPLIST_FILE = "WGBlurTransition/WGBlurTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6D2D3FA19A43F4400654B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WGBlurTransition/WGBlurTransition-Prefix.pch";
+				INFOPLIST_FILE = "WGBlurTransition/WGBlurTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D6D2D3FC19A43F4400654B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WGBlurTransition.app/WGBlurTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WGBlurTransition/WGBlurTransition-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WGBlurTransitionTests/WGBlurTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D6D2D3FD19A43F4400654B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WGBlurTransition.app/WGBlurTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WGBlurTransition/WGBlurTransition-Prefix.pch";
+				INFOPLIST_FILE = "WGBlurTransitionTests/WGBlurTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D2D3C719A43F4400654B1C /* Build configuration list for PBXProject "WGBlurTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D2D3F619A43F4400654B1C /* Debug */,
+				D6D2D3F719A43F4400654B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D2D3F819A43F4400654B1C /* Build configuration list for PBXNativeTarget "WGBlurTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D2D3F919A43F4400654B1C /* Debug */,
+				D6D2D3FA19A43F4400654B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6D2D3FB19A43F4400654B1C /* Build configuration list for PBXNativeTarget "WGBlurTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D2D3FC19A43F4400654B1C /* Debug */,
+				D6D2D3FD19A43F4400654B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D2D3C419A43F4400654B1C /* Project object */;
+}
