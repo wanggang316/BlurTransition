@@ -19,6 +19,21 @@
 		D6D2D3EB19A43F4400654B1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D3D319A43F4400654B1C /* UIKit.framework */; };
 		D6D2D3F319A43F4400654B1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6D2D3F119A43F4400654B1C /* InfoPlist.strings */; };
 		D6D2D3F519A43F4400654B1C /* WGBlurTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D2D3F419A43F4400654B1C /* WGBlurTransitionTests.m */; };
+		D6D2D40119A43F5B00654B1C /* WGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D2D3FF19A43F5B00654B1C /* WGViewController.m */; };
+		D6D2D40219A43F5B00654B1C /* WGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D2D40019A43F5B00654B1C /* WGViewController.xib */; };
+		D6D2D40619A43FC000654B1C /* WGPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D2D40419A43FC000654B1C /* WGPresentViewController.m */; };
+		D6D2D40719A43FC000654B1C /* WGPresentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D2D40519A43FC000654B1C /* WGPresentViewController.xib */; };
+		D6D2D40D19A444E200654B1C /* UIView+ScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D2D40C19A444E200654B1C /* UIView+ScreenShot.m */; };
+		D6D2D41A19A4AD1B00654B1C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D41919A4AD1B00654B1C /* CoreMedia.framework */; };
+		D6D2D41C19A4AD2300654B1C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D41B19A4AD2300654B1C /* CoreVideo.framework */; };
+		D6D2D41E19A4AD2B00654B1C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D41D19A4AD2B00654B1C /* OpenGLES.framework */; };
+		D6D2D42019A4AD3300654B1C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D41F19A4AD3300654B1C /* AVFoundation.framework */; };
+		D6D2D42219A4AD4100654B1C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D42119A4AD4100654B1C /* QuartzCore.framework */; };
+		D6D2D44719A4B3C600654B1C /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D2D44419A4B3BA00654B1C /* libGPUImage.a */; };
+		D6FA9BF819A5EFEA00936763 /* 11.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D6FA9BF619A5EFEA00936763 /* 11.JPG */; };
+		D6FA9BF919A5EFEA00936763 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = D6FA9BF719A5EFEA00936763 /* cancel.png */; };
+		D6FA9BFE19A5EFF100936763 /* WGDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FA9BFB19A5EFF100936763 /* WGDismissAnimation.m */; };
+		D6FA9BFF19A5EFF100936763 /* WGPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FA9BFD19A5EFF100936763 /* WGPresentAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +43,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = D6D2D3CB19A43F4400654B1C;
 			remoteInfo = WGBlurTransition;
+		};
+		D6D2D44319A4B3BA00654B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D2D43D19A4B3BA00654B1C /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		D6D2D44519A4B3BA00654B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D2D43D19A4B3BA00654B1C /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A34414DDB1EC00852800;
+			remoteInfo = GPUImageTests;
+		};
+		D6D2D44819A4B3CA00654B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D2D43D19A4B3BA00654B1C /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF1A33314DDB1EC00852800;
+			remoteInfo = GPUImage;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -48,6 +84,26 @@
 		D6D2D3F019A43F4400654B1C /* WGBlurTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WGBlurTransitionTests-Info.plist"; sourceTree = "<group>"; };
 		D6D2D3F219A43F4400654B1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6D2D3F419A43F4400654B1C /* WGBlurTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGBlurTransitionTests.m; sourceTree = "<group>"; };
+		D6D2D3FE19A43F5B00654B1C /* WGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGViewController.h; sourceTree = "<group>"; };
+		D6D2D3FF19A43F5B00654B1C /* WGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGViewController.m; sourceTree = "<group>"; };
+		D6D2D40019A43F5B00654B1C /* WGViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WGViewController.xib; sourceTree = "<group>"; };
+		D6D2D40319A43FC000654B1C /* WGPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGPresentViewController.h; sourceTree = "<group>"; };
+		D6D2D40419A43FC000654B1C /* WGPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGPresentViewController.m; sourceTree = "<group>"; };
+		D6D2D40519A43FC000654B1C /* WGPresentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WGPresentViewController.xib; sourceTree = "<group>"; };
+		D6D2D40B19A444E200654B1C /* UIView+ScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScreenShot.h"; sourceTree = "<group>"; };
+		D6D2D40C19A444E200654B1C /* UIView+ScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScreenShot.m"; sourceTree = "<group>"; };
+		D6D2D41919A4AD1B00654B1C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D6D2D41B19A4AD2300654B1C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D6D2D41D19A4AD2B00654B1C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D6D2D41F19A4AD3300654B1C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D6D2D42119A4AD4100654B1C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D6D2D43D19A4B3BA00654B1C /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
+		D6FA9BF619A5EFEA00936763 /* 11.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.JPG; sourceTree = "<group>"; };
+		D6FA9BF719A5EFEA00936763 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		D6FA9BFA19A5EFF100936763 /* WGDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGDismissAnimation.h; sourceTree = "<group>"; };
+		D6FA9BFB19A5EFF100936763 /* WGDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGDismissAnimation.m; sourceTree = "<group>"; };
+		D6FA9BFC19A5EFF100936763 /* WGPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGPresentAnimation.h; sourceTree = "<group>"; };
+		D6FA9BFD19A5EFF100936763 /* WGPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGPresentAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +111,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D2D44719A4B3C600654B1C /* libGPUImage.a in Frameworks */,
+				D6D2D42219A4AD4100654B1C /* QuartzCore.framework in Frameworks */,
+				D6D2D42019A4AD3300654B1C /* AVFoundation.framework in Frameworks */,
+				D6D2D41E19A4AD2B00654B1C /* OpenGLES.framework in Frameworks */,
+				D6D2D41C19A4AD2300654B1C /* CoreVideo.framework in Frameworks */,
+				D6D2D41A19A4AD1B00654B1C /* CoreMedia.framework in Frameworks */,
 				D6D2D3D219A43F4400654B1C /* CoreGraphics.framework in Frameworks */,
 				D6D2D3D419A43F4400654B1C /* UIKit.framework in Frameworks */,
 				D6D2D3D019A43F4400654B1C /* Foundation.framework in Frameworks */,
@@ -96,6 +158,12 @@
 		D6D2D3CE19A43F4400654B1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D6D2D43D19A4B3BA00654B1C /* GPUImage.xcodeproj */,
+				D6D2D42119A4AD4100654B1C /* QuartzCore.framework */,
+				D6D2D41F19A4AD3300654B1C /* AVFoundation.framework */,
+				D6D2D41D19A4AD2B00654B1C /* OpenGLES.framework */,
+				D6D2D41B19A4AD2300654B1C /* CoreVideo.framework */,
+				D6D2D41919A4AD1B00654B1C /* CoreMedia.framework */,
 				D6D2D3CF19A43F4400654B1C /* Foundation.framework */,
 				D6D2D3D119A43F4400654B1C /* CoreGraphics.framework */,
 				D6D2D3D319A43F4400654B1C /* UIKit.framework */,
@@ -111,6 +179,16 @@
 				D6D2D3DF19A43F4400654B1C /* WGAppDelegate.m */,
 				D6D2D3E119A43F4400654B1C /* Images.xcassets */,
 				D6D2D3D619A43F4400654B1C /* Supporting Files */,
+				D6D2D3FE19A43F5B00654B1C /* WGViewController.h */,
+				D6D2D3FF19A43F5B00654B1C /* WGViewController.m */,
+				D6D2D40019A43F5B00654B1C /* WGViewController.xib */,
+				D6D2D40319A43FC000654B1C /* WGPresentViewController.h */,
+				D6D2D40419A43FC000654B1C /* WGPresentViewController.m */,
+				D6D2D40519A43FC000654B1C /* WGPresentViewController.xib */,
+				D6D2D40B19A444E200654B1C /* UIView+ScreenShot.h */,
+				D6D2D40C19A444E200654B1C /* UIView+ScreenShot.m */,
+				D6FA9BF419A5EF9900936763 /* Animations */,
+				D6FA9BF519A5EFAD00936763 /* Images */,
 			);
 			path = WGBlurTransition;
 			sourceTree = "<group>";
@@ -144,6 +222,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D6D2D43E19A4B3BA00654B1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D2D44419A4B3BA00654B1C /* libGPUImage.a */,
+				D6D2D44619A4B3BA00654B1C /* GPUImageTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6FA9BF419A5EF9900936763 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				D6FA9BFA19A5EFF100936763 /* WGDismissAnimation.h */,
+				D6FA9BFB19A5EFF100936763 /* WGDismissAnimation.m */,
+				D6FA9BFC19A5EFF100936763 /* WGPresentAnimation.h */,
+				D6FA9BFD19A5EFF100936763 /* WGPresentAnimation.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		D6FA9BF519A5EFAD00936763 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D6FA9BF619A5EFEA00936763 /* 11.JPG */,
+				D6FA9BF719A5EFEA00936763 /* cancel.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +265,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D6D2D44919A4B3CA00654B1C /* PBXTargetDependency */,
 			);
 			name = WGBlurTransition;
 			productName = WGBlurTransition;
@@ -207,6 +315,12 @@
 			mainGroup = D6D2D3C319A43F4400654B1C;
 			productRefGroup = D6D2D3CD19A43F4400654B1C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D6D2D43E19A4B3BA00654B1C /* Products */;
+					ProjectRef = D6D2D43D19A4B3BA00654B1C /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D6D2D3CB19A43F4400654B1C /* WGBlurTransition */,
@@ -215,13 +329,34 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		D6D2D44419A4B3BA00654B1C /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = D6D2D44319A4B3BA00654B1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D6D2D44619A4B3BA00654B1C /* GPUImageTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests.octest;
+			remoteRef = D6D2D44519A4B3BA00654B1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		D6D2D3CA19A43F4400654B1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6FA9BF819A5EFEA00936763 /* 11.JPG in Resources */,
 				D6D2D3DA19A43F4400654B1C /* InfoPlist.strings in Resources */,
 				D6D2D3E219A43F4400654B1C /* Images.xcassets in Resources */,
+				D6FA9BF919A5EFEA00936763 /* cancel.png in Resources */,
+				D6D2D40719A43FC000654B1C /* WGPresentViewController.xib in Resources */,
+				D6D2D40219A43F5B00654B1C /* WGViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +375,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D2D40119A43F5B00654B1C /* WGViewController.m in Sources */,
 				D6D2D3E019A43F4400654B1C /* WGAppDelegate.m in Sources */,
+				D6D2D40D19A444E200654B1C /* UIView+ScreenShot.m in Sources */,
+				D6FA9BFE19A5EFF100936763 /* WGDismissAnimation.m in Sources */,
+				D6D2D40619A43FC000654B1C /* WGPresentViewController.m in Sources */,
 				D6D2D3DC19A43F4400654B1C /* main.m in Sources */,
+				D6FA9BFF19A5EFF100936763 /* WGPresentAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +400,11 @@
 			isa = PBXTargetDependency;
 			target = D6D2D3CB19A43F4400654B1C /* WGBlurTransition */;
 			targetProxy = D6D2D3EC19A43F4400654B1C /* PBXContainerItemProxy */;
+		};
+		D6D2D44919A4B3CA00654B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			targetProxy = D6D2D44819A4B3CA00654B1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -360,6 +505,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WGBlurTransition/WGBlurTransition-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/framework/Source/**",
+				);
 				INFOPLIST_FILE = "WGBlurTransition/WGBlurTransition-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -373,6 +523,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WGBlurTransition/WGBlurTransition-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/framework/Source/**",
+				);
 				INFOPLIST_FILE = "WGBlurTransition/WGBlurTransition-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -438,6 +593,7 @@
 				D6D2D3FA19A43F4400654B1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6D2D3FB19A43F4400654B1C /* Build configuration list for PBXNativeTarget "WGBlurTransitionTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +602,7 @@
 				D6D2D3FD19A43F4400654B1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
